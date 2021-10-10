@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_section_sections",
+  "info": {
+    "name": "Section",
+    "icon": "clone",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.content"
+    }
+  }
+}

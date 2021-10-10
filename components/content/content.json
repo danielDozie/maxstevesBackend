@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_content_contents",
+  "info": {
+    "name": "content",
+    "icon": "atlas",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "textHtml": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "media": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "url": {
+      "type": "string",
+      "default": "#"
+    }
+  }
+}
